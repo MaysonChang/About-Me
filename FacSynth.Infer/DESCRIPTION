@@ -1,0 +1,15 @@
+Package: FacSynth
+Type: Package
+Title: Statistical Inference for Factor Model Approach to Estimate Causal Effects in Quasi-Experimental Settings
+Version: 1.0
+Depends: R (>= 3.1.0)
+Authors@R: c(
+    person("Kathleen", "Li", role = c("cre", "aut"), email = "kathleen.li@mccombs.utexas.edu"),
+    person("Chi", "Zhang", role = "aut", email = "mayson.zhang@utexas.edu"))
+Description: Implements formal inference theory for using the factor model approach to estimate ATT and obtain confidence intervals. For more information about this inference method, please refer to the paper Statistical Inference for Factor Model Approach to Estimate Causal Effects in Quasi-Experimental Settings (Li & Sonnier, 2020).
+Imports: 
+    pracma
+License: Unlimited
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
